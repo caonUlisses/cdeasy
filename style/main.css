@@ -9,6 +9,10 @@ body {
     overflow-x: hidden;
 }
 
+a {
+    text-decoration: none;
+}
+
 nav {
     /* font-family: 'PT Sans', sans-serif; */
     font-family     : 'Questrial';
