@@ -1,0 +1,17 @@
+@media screen and (max-width: 1200px) {
+    .cursos {
+        justify-content: flex-start;
+    }
+    .cursos .card {
+        width: 32%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cursos {
+        justify-content: space-around;
+    }
+    .cursos .card {
+        width: 75%;
+    }
+}
