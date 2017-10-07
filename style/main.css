@@ -361,3 +361,66 @@ footer .referencia img {
 .expander {
     height: 80px;
 }
+
+.contato {
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.contato .group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato .group label {
+    font-family: 'Pt Sans', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.8em;
+}
+
+.contato .group input {
+    padding: 6px;
+    border-radius: 12px;
+    border: 1px solid black;
+    width: 100%;
+    line-height: 1.3em;
+    font-size: 1.2em;
+}
+
+.contato .group textarea {
+    resize: none;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 6px;
+    width: 100%;
+    line-height: 1.3em;
+    font-size: 1.2em;
+}
+
+#enviar {
+    border-radius: 50%;
+    margin: 0 auto;
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    border: 1px solid crimson;
+    background-color: crimson;
+    color: white;
+    font-family: 'Pt Sans', sans-serif;
+    font-weight: bolder;
+}
