@@ -14,7 +14,6 @@ a {
 }
 
 nav {
-    /* font-family: 'PT Sans', sans-serif; */
     font-family     : 'Questrial';
     height          : 60px;
     background-color: snow;
@@ -49,9 +48,9 @@ nav ul li {
 }
 
 nav .img img {
-    height: 90%;
-    float: left;
-    position: relative;
+    height    : 90%;
+    float     : left;
+    position  : relative;
     max-height: 65px;
 }
 
@@ -117,8 +116,34 @@ nav ul li a:hover {
 }
 
 .landing {
-    height          : 75vh;
-    background-color: lightblue;
+    margin-top: 70px;
+    height    : 75vh;
+    z-index   : -1000;
+}
+
+.info {
+    z-index        : 10;
+    width          : 100%;
+    height         : 75vh;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+}
+
+.info h2 {
+    font-size: 2.9em;
+}
+
+.info h4 {
+    font-size: 2em;
+}
+
+.info h2,
+.info h4 {
+    color      : white;
+    font-family: 'Pt Sans', sans-serif;
+    text-shadow: 3px 3px 12px black;
 }
 
 .seja {
@@ -212,25 +237,76 @@ nav ul li a:hover {
 }
 
 .cursos .card {
-    width           : 24%;
-    height          : 240px;
-    background-color: gray;
-    margin          : 5px;
-    display         : flex;
-    flex-direction  : column;
-    justify-content : center;
-    align-items     : center;
+    width              : 24%;
+    height             : 240px;
+    background-color   : gray;
+    margin             : 5px;
+    display            : flex;
+    flex-direction     : column;
+    justify-content    : center;
+    align-items        : center;
+    background-position: center;
+    background-size    : cover;
+    background-repeat  : no-repeat;
 }
 
 .cursos .card h3 {
-    color          : white;
-    text-align-last: center;
-    font-family    : 'Pt Sans', sans-serif;
+    margin-top : 120px;
+    color      : white;
+    text-align : center;
+    font-family: 'Pt Sans', sans-serif;
+    text-shadow: 3px 3px 4px black;
+    background-color: rgba(0,0,0,0.5);
+    padding: 4px;
 }
 
 .cursos .card p {
-    color: white;
+    font-family: 'Pt Sans', sans-serif;
+    font-weight: bolder;
+    color     : white;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 4em;
+    text-shadow: 3px 3px 4px black;
 }
+
+.asb {
+    background-image: url('./../img/cursos/asb.jpg');
+}
+
+.secretary {
+    background-image: url('./../img/cursos/secretary.jpg');
+}
+
+.cad {
+    background-image: url('./../img/cursos/cad.jpg');
+}
+
+.hair {
+    background-image: url('./../img/cursos/hair.jpg');
+}
+
+.dog {
+    background-image: url('./../img/cursos/dog.jpg');
+}
+
+.pharma {
+    background-image: url('./../img/cursos/pharma.jpg');
+}
+
+.hand {
+    background-image: url('./../img/cursos/hand.jpg');
+}
+
+.english {
+    background-image: url('./../img/cursos/english.jpg');
+}
+
+.office {
+    background-image: url('./../img/cursos/office.jpg');
+}
+
 
 footer {
     background-color: #D64737;
@@ -282,7 +358,7 @@ footer .referencia h4 {
 
 footer .referencia h6 {
     font-family: 'Pt Sans', sans-serif;
-    font-size: 1.1em;
+    font-size  : 1.1em;
 }
 
 footer .referencia img {
@@ -301,37 +377,41 @@ footer .referencia img {
 }
 
 .mais {
-    width: 90%;
-    min-height: 60vh;
-    background-color: honeydew;
+    width              : 90%;
+    min-height         : 60vh;
+    margin             : 0 auto;
+    background-image   : url('./../img/HappyCrowd.jpg');
+    background-size    : cover;
+    background-position: center;
+    background-repeat  : no-repeat;
 }
 
 .sobre {
-    width: 90%;
+    width : 100%;
     margin: 0 auto;
 }
 
 .sobre h1 {
-    color: #1E1E1E;
-    width: 100%;
-    padding: 10px;
-    font-family: 'Permanent Marker', cursive;    
-    font-size: 2.5em;
-    text-align: center;
+    color      : #1E1E1E;
+    width      : 100%;
+    padding    : 10px;
+    font-family: 'Permanent Marker', cursive;
+    font-size  : 2.5em;
+    text-align : center;
 }
 
 .sobre span {
-    text-align: center;    
-    background: linear-gradient(37deg, #cc3508, #3741cc);
-    background-size: 200% auto;
-    color: #000;
-    background-clip: text;
-    text-fill-color: transparent;
+    text-align             : center;
+    background             : linear-gradient(37deg, #cc3508, #3741cc);
+    background-size        : 200% auto;
+    color                  : #000;
+    background-clip        : text;
+    text-fill-color        : transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-animation: letras 4s linear infinite;
-    -moz-animation: letras 4s linear infinite;
-    animation: letras 4s linear infinite;
+    -webkit-animation      : letras 4s linear infinite;
+    -moz-animation         : letras 4s linear infinite;
+    animation              : letras 4s linear infinite;
 }
 
 @-webkit-keyframes letras {
@@ -351,14 +431,14 @@ footer .referencia img {
 }
 
 .sobre .long {
-    text-align: justify;
-    width: 75%;
-    margin: 0 auto;
+    text-align : justify;
+    width      : 75%;
+    margin     : 0 auto;
     font-family: 'Pt Sans', sans-serif;
 }
 
 .sobre .long p {
-    margin-top: 5px;
+    margin-top   : 5px;
     margin-bottom: 5px;
 }
 
@@ -367,64 +447,64 @@ footer .referencia img {
 }
 
 .contato {
-    margin: 0 auto;
-    width: 75%;
-    display: flex;
-    flex-direction: column;
+    margin         : 0 auto;
+    width          : 75%;
+    display        : flex;
+    flex-direction : column;
     justify-content: center;
-    align-items: center;
+    align-items    : center;
 }
 
 .contato form {
-    width: 80%;
-    display: flex;
+    width         : 80%;
+    display       : flex;
     flex-direction: column;
-    justify-items: center;
-    align-items: center;
+    justify-items : center;
+    align-items   : center;
 }
 
 .contato .group {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+    width          : 100%;
+    display        : flex;
+    flex-direction : column;
     justify-content: center;
-    align-items: center;
+    align-items    : center;
 }
 
 .contato .group label {
     font-family: 'Pt Sans', sans-serif;
-    font-size: 1.5em;
+    font-size  : 1.5em;
     line-height: 1.8em;
 }
 
 .contato .group input {
-    padding: 6px;
+    padding      : 6px;
     border-radius: 12px;
-    border: 1px solid black;
-    width: 100%;
-    line-height: 1.3em;
-    font-size: 1.2em;
+    border       : 1px solid black;
+    width        : 100%;
+    line-height  : 1.3em;
+    font-size    : 1.2em;
 }
 
 .contato .group textarea {
-    resize: none;
-    border: 1px solid black;
+    resize       : none;
+    border       : 1px solid black;
     border-radius: 12px;
-    padding: 6px;
-    width: 100%;
-    line-height: 1.3em;
-    font-size: 1.2em;
+    padding      : 6px;
+    width        : 100%;
+    line-height  : 1.3em;
+    font-size    : 1.2em;
 }
 
 #enviar {
-    border-radius: 50%;
-    margin: 0 auto;
-    height: 80px;
-    width: 80px;
-    margin: 20px;
-    border: 1px solid crimson;
+    border-radius   : 50%;
+    margin          : 0 auto;
+    height          : 80px;
+    width           : 80px;
+    margin          : 20px;
+    border          : 1px solid crimson;
     background-color: crimson;
-    color: white;
-    font-family: 'Pt Sans', sans-serif;
-    font-weight: bolder;
+    color           : white;
+    font-family     : 'Pt Sans', sans-serif;
+    font-weight     : bolder;
 }
