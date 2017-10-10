@@ -121,10 +121,6 @@ nav ul li a:hover {
     z-index   : -1000;
 }
 
-.landing .slider img {
-    margin-top: 510px;
-}
-
 .info {
     z-index        : 10;
     width          : 100%;
