@@ -121,6 +121,10 @@ nav ul li a:hover {
     z-index   : -1000;
 }
 
+.landing .slider img {
+    margin-top: 510px;
+}
+
 .info {
     z-index        : 10;
     width          : 100%;
@@ -237,7 +241,7 @@ nav ul li a:hover {
 }
 
 .cursos .card {
-    width              : 24%;
+    width              : 32%;
     height             : 240px;
     background-color   : gray;
     margin             : 5px;
@@ -307,6 +311,26 @@ nav ul li a:hover {
     background-image: url('./../img/cursos/office.jpg');
 }
 
+.vet {
+    background-image: url('./../img/cursos/vet.jpg');
+}
+
+.adm {
+    background-image: url('./../img/cursos/adm.jpg');
+}
+
+.make {
+    background-image: url('./../img/cursos/make.jpg');
+}
+
+/* .last {
+    min-width: 98%;
+    min-height: 500px;
+}
+
+.last h3 {
+    width: 100%;
+} */
 
 footer {
     background-color: #D64737;
