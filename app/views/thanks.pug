@@ -1,8 +1,12 @@
 extends layout
 
+block append style
+    link(rel="stylesheet", href="/style/thanks.css")
+
 block content
     .expander
-    h1 Obrigado por entrar em contato!
-    h2 Em breve nós retornaremos sua mensagem
+    .thanks
+        h1 Obrigado por entrar em contato!
+        h2 Em breve nós retornaremos sua mensagem
 
-    p #{name}, nós ficamos imensamente felizes em ver seu interesse por nossa escola.
+        p #{name}, nós ficamos imensamente felizes em ver seu interesse por nossa escola.

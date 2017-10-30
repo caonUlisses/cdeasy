@@ -9,5 +9,9 @@ module.exports = {
     },
     app: {
         name: process.env.APP_NAME || 'Cd-Easy'
+    },
+    mail: {
+        email   : process.env.EMAIL_ACCOUNT  || 'test@test.com',
+        password: process.env.EMAIL_PASSWORD || '123456'
     }
 }

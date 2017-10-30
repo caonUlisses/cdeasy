@@ -1,3 +1,4 @@
+const _       = require("lodash")
 const config  = require('./../config/app')
 const express = require('express')
 const index   = express.Router()
@@ -42,6 +43,20 @@ index.get('/contato', (req, res, next) => {
     info,
     app_name,
     title: 'Fale conosco'
+  })
+})
+
+index.get('/curso/:id', (req, res) => {
+  let id     = req.params.id
+  let name   = id.value
+  let course = courses[id]
+  res.render('course', {
+    year,
+    info,
+    app_name,
+    course,
+    title: 'Fale conosco',
+    id
   })
 })
 

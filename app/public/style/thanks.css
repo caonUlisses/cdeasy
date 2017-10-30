@@ -1,0 +1,9 @@
+.thanks {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
