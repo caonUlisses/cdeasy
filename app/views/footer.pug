@@ -13,9 +13,9 @@ footer
             a(href="tel:554235231814")
                     img(src="./img/icons/phone.svg" alt="É muito fácil" title="É só clicar aqui para ligar! (caso esteja usando um celular)")
                     h4 Como
-                    h6 #{info.phone[0]}
-                    br  
-                    h6 #{info.phone[1]}
+                    each phone in info.phone
+                        h6 #{phone}
+                    
         .referencia
             img(src="./img/icons/time.svg" alt="Horários excelentes" title="E nós almoçamos, do meio dia às 13h 30min.")
             h4 Quando
@@ -24,4 +24,4 @@ footer
             
 
     .copyright
-        span © CD-Easy 2017 - Todos os direitos reservados.
+        span © #{app_name} - #{year} - Todos os direitos reservados.

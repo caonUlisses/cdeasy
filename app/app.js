@@ -1,5 +1,6 @@
 const pug          = require('pug')
 const path         = require('path')
+const config       = require('./config/app')
 const logger       = require('morgan')
 const express      = require('express')
 const bodyParser   = require('body-parser')

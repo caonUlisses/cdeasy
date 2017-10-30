@@ -1,0 +1,17 @@
+{
+    "asb": {
+        "title": "Auxiliar de Saúde Bucal",
+        "description": "Curso presencial completo com certificado",
+        "image": "http://localhost:3000/img/cursos/asb.jpg"
+    },
+    "bsd": {
+        "title": "Auxiliar de Saúde Bucal",
+        "description": "Curso presencial completo com certificado",
+        "image": "http://localhost:3000/img/cursos/asb.jpg"
+    },
+    "bsa": {
+        "title": "Auxiliar de Saúde Bucal",
+        "description": "Curso presencial completo com certificado",
+        "image": "http://localhost:3000/img/cursos/asb.jpg"
+    }
+}
