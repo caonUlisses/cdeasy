@@ -1,60 +1,72 @@
 {
     "asb": {
+        "link": "asb",
         "title": "Auxiliar de Saúde Bucal",
         "description": "Curso presencial completo com certificado",
         "image": "/img/cursos/asb.jpg"
     },
     "secretary": {
+        "link": "secretary",
         "title": "Secretariado",
         "description": "Prepare-se para o mercado de trabalho com um curso completo e confiável.",
         "image": "/img/cursos/secretary.jpg"
     },
     "cad": {
+        "link": "cad",
         "title": "Autocad",
         "description": "Não fique para trás na faculdade! Matricule-se hoje mesmo",
         "image": "/img/cursos/cad.jpg"
     },
     "hair" : {
+        "link": "hair",
         "title": "Cabeleireiro",
         "description": "Seja seu chefe e mude de vida!",
         "image": "/img/cursos/hair.jpg"
     },
     "dog" : {
+        "link": "dog",
         "title": "Banho e Tosa",
         "description": "Curso completo presencial com estrutura e professores qualificados",
         "image": "/img/cursos/dog.jpg"
     },
     "pharma" : {
+        "link": "pharma",
         "title": "Atendente de Farmácia",
         "description": "Inicie sua carreira profissional na área que mais cresce no Brasil",
         "image": "/img/cursos/pharma.jpg"
     },
     "hand" : {
+        "link": "hand",
         "title": "Manicure",
         "description": "Trabalhe onde e quando quiser, com a segurança e prestígio que o curso lhe oferece",
         "image": "/img/cursos/hand.jpg"
     },
     "english" : {
+        "link": "english",
         "title": "Inglês",
         "description": "Aprenda how to falar em english com os melhores teachers da região!",
         "image": "/img/cursos/english.jpg"
     },
     "office" : {
+        "link": "office",
         "title": "Informática Comercial",
         "description": "Aprenda tudo o que você precisa saber para trabalhar na frente do computador!",
         "image": "/img/cursos/office.jpg"
     },
     "vet" : {
+        "link": "vet",
         "title": "Auxiliar de Veterinário",
         "description": "Tenha sucesso profissional com o curso mais completo da área.",
         "image": "/img/cursos/vet.jpg"
     },
     "make" : {
+        "link": "make",
         "title": "Maquiagem",
         "description": "Profissionalize-se com um curso com certificado e ministrado por profissionais excelentes.",
         "image": "/img/cursos/make.jpg"
     },
     "adm" : {
+        "link": "adm",
         "title": "Auxiliar Administrativo",
         "description": "Melhore suas oportunidades no mercado de trabalho ou mude de ramo com este curso.",
         "image": "/img/cursos/adm.jpg"

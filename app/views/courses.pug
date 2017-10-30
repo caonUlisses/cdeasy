@@ -9,5 +9,6 @@
     each course in courses
         .card(style=`background-image: url(${course.image});`)
             //- img(src=`${course.image}`)
-            h3 #{course.title}
-            p #{course.description}
+            a(href=`/curso/${course.link}`)
+                h3 #{course.title}
+                p #{course.description}

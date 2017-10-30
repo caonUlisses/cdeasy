@@ -250,14 +250,19 @@ nav ul li a:hover {
     background-repeat  : no-repeat;
 }
 
+.cursos .card a {
+    width: 100%;
+}
+
 .cursos .card h3 {
     margin-top : 120px;
     color      : white;
     text-align : center;
+    width: 100%;
     font-family: 'Pt Sans', sans-serif;
     text-shadow: 3px 3px 4px black;
     background-color: rgba(0,0,0,0.5);
-    padding: 4px;
+    /* padding: 4px; */
 }
 
 .cursos .card p {
