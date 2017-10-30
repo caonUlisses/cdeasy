@@ -14,6 +14,7 @@ index.get('/', (req, res, next) => {
     year,
     app_name,
     courses,
+    home: true,
     title: 'Inicio'
   })
 })
@@ -23,6 +24,7 @@ index.get('/sobre', (req, res, next) => {
     year,
     info,
     app_name,
+    who: true,
     title: 'Sobre nós'
   })
 })
@@ -33,6 +35,7 @@ index.get('/cursos', (req, res, next) => {
     info,
     app_name,
     courses,
+    course_page: true,
     title: 'Nossos cursos'
   })
 })
