@@ -13,7 +13,7 @@ index.get('/', (req, res, next) => {
     year,
     app_name,
     courses,
-    title: 'Cd-Easy - Inicio'
+    title: 'Inicio'
   })
 })
 
@@ -22,7 +22,17 @@ index.get('/sobre', (req, res, next) => {
     year,
     info,
     app_name,
-    title: 'Cd-Easy - Sobre nós'
+    title: 'Sobre nós'
+  })
+})
+
+index.get('/cursos', (req, res, next) => {
+  res.render('courses_view', {
+    year,
+    info,
+    app_name,
+    courses,
+    title: 'Nossos cursos'
   })
 })
 
