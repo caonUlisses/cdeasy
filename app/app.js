@@ -1,3 +1,4 @@
+const pug          = require('pug')
 const path         = require('path')
 const logger       = require('morgan')
 const express      = require('express')
@@ -9,8 +10,8 @@ const {index} = require('./routes/index')
 
 let app = express()
 
-app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'pug')
+app.set('views', path.join(__dirname, 'views'))
 
 app.use(logger('dev'))
 app.use(bodyParser.json())
@@ -19,7 +20,6 @@ app.use(cookieParser())
 app.use(express.static(path.join(__dirname, 'public')))
 
 app.use('/', index)
-app.use('/users', users)
 
 app.use((req, res, next) => {
   let err        = new Error('Not Found')

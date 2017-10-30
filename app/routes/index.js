@@ -2,7 +2,7 @@ const express = require('express');
 const index   = express.Router();
 
 index.get('/', (req, res, next) => {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Cd-Easy' });
 });
 
-module.exports = index;
+module.exports = {index};
