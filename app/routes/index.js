@@ -36,4 +36,26 @@ index.get('/cursos', (req, res, next) => {
   })
 })
 
+index.get('/contato', (req, res, next) => {
+  res.render('contact', {
+    year,
+    info,
+    app_name,
+    title: 'Fale conosco'
+  })
+})
+
+index.post('/contato', (req, res, next) => {
+  let message = req.body.message
+  let email   = req.body.email
+  let name    = req.body.name
+  res.render('thanks', {
+    year,
+    info,
+    app_name,
+    name,
+    title: 'Sua mensagem foi enviada'
+  })
+})
+
 module.exports = {index}

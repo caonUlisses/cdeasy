@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    .expander
+    .contato
+        form(action="/contato" method="post")
+            .group
+                label(for="name") Qual é o seu nome?
+                input(name="name" type="text" placeholder="Digite seu nome, por favor")
+            .group
+                label(for="email") Tem email?
+                input(name="email" type="text" placeholder="Pode digitar ele aqui")
+            .group
+                label(for="message") Qual sua mensagem para nós?
+                textarea(name="message" id="" cols="30" rows="10" placeholder="Conte para mim.")
+            input#enviar(type="submit" value="Enviar")
