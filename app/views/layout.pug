@@ -5,15 +5,18 @@ head
     meta(name="viewport" content="width=device-width, initial-scale=1.0")
     meta(http-equiv="X-UA-Compatible" content="ie=edge")
     meta(name="description" content="Escola profissionalizante atuando há mais de 20 anos no sul do Paraná.")    
-    link(href="https://fonts.googleapis.com/css?family=PT+Sans|Questrial" rel="stylesheet")
-    link(rel="stylesheet" href="/style/main.css")
-    link(rel="stylesheet" href="/style/tablet.css")
-    link(rel="stylesheet" href="/style/phone.css")
-    link(rel="stylesheet" href="/bower_components/ideal-image-slider/ideal-image-slider.css")
-    link(rel="stylesheet" href="./bower_components/ideal-image-slider/themes/default/default.css")
-    script(src="./bower_components/ideal-image-slider/ideal-image-slider.min.js")
-    script(src="/js/slider.js")
+    block style
+        link(href="https://fonts.googleapis.com/css?family=PT+Sans|Questrial" rel="stylesheet")
+        link(rel="stylesheet" href="/style/main.css")
+        link(rel="stylesheet" href="/style/tablet.css")
+        link(rel="stylesheet" href="/style/phone.css")
+        link(rel="stylesheet" href="/bower_components/ideal-image-slider/ideal-image-slider.css")
+        link(rel="stylesheet" href="./bower_components/ideal-image-slider/themes/default/default.css")
+    block script
+        script(src="./bower_components/ideal-image-slider/ideal-image-slider.min.js")
+        script(src="/js/slider.js")
     title #{title}
 body
     include nav
     block content
+    include footer
